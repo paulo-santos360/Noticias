@@ -1,0 +1,288 @@
+/*Estrutura do site*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    background-image: url('img/fundo.png');
+    background-repeat: repeat-x;
+}
+
+.container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo{
+    height: 150px;
+}
+.imgp{
+    margin-top: -27px;
+    margin-right: 162px;
+    margin-bottom: -15px;
+    position: absolute;
+
+}
+
+img{
+    margin-right: -100px;
+    float: right;
+}
+.paragrafo{
+    clear: right;
+    position: relative;
+    right: -97px;
+    top: -30px;
+}
+.flex{
+    margin-top: -27px;
+    text-indent: 100px;
+    clear: right;
+}
+
+.flex1{
+    margin: 0px;
+    text-indent: 100px;
+    clear: right;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    float: left;
+    background-repeat: no-repeat;
+    position: relative;
+    right: -173px;
+    top:10px
+    
+}
+
+a:link, a:visited{
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover{
+    color: #e50040;
+}
+
+/*Barra de Navegação*/
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.ul1{
+    margin-top: 0px;
+}
+
+#topo ul{
+    background-color: #b10333;
+    float: left;
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    font-size: 0.9em;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background-image: url('img/divisor.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover{
+    color: #69001d;
+}
+
+body.home #navegaçao a#home,
+body.brasil #navegaçao a#brasil,
+body.internacional #navegaçao a#internacional,
+body.economia #navegaçao a#economia,
+body.saude #navegaçao a#saude,
+body.ciencia #navegaçao a#ciencia,
+body.fotos #navegaçao a#fotos
+{
+    color: #fff;
+    background-color: #de003e;
+    cursor: text;
+}
+
+/* configuração layot de tres colunas*/
+#conteudo{
+    margin-top: 80px;
+    background-color: #fff;
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px; 
+}
+
+.imagem-principal{
+    margin-right: 2px;
+    border: 3px solid #dfdfdf;
+    width: 98%;
+}
+h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background-color: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background-color: #de003e;
+
+}
+
+#duas-colunas #primario{
+    width: 555px;
+}
+
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0px;
+}
+
+#segundario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+
+}
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+/*caixa*/
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #fff;
+    background-image: url('img/fundo-caixa.png');
+}
+
+h2{
+    font-size: 1em;
+    background-color: #294c71;
+    color: #fff;
+    padding: 5px;
+
+}
+
+.caixa-conteudo{
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#lateral ul a{
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    background-color: #f9f9f9;
+    background-image: url('img/marcador.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #a1a1a1;
+    padding-left: 20px;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+
+input{
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+
+#lista-noticias li{
+    padding: 1px;
+    border-bottom: 1px solid #ccc;
+    height: 30px;
+}
+
+#lista-noticias li a{
+    text-decoration: none;
+    
+}
+
+#lista-noticias li a h3{
+    font-size: 0.8em;  
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p{
+    font-size: 0.7em; 
+    color: #000; 
+}
+
+#lista-noticias li:hover{
+    background-color: #eee; 
+    cursor: pointer;
+}
+
+#lista-
+/*rodape*/
+#container-rodape{
+    background-color: #294c71;
+    padding: 20px;
+}
+
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
