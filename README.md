@@ -2,7 +2,7 @@
 
 Bem-vindo ao projeto Notícias da Cidade, um site de notícias onde você pode encontrar as últimas informações sobre diversos tópicos. Este projeto foi desenvolvido utilizando HTML e CSS para criar um layout responsivo e atraente.
 
-(![cidade](https://user-images.githubusercontent.com/102436341/230456488-41cd369d-22f2-4bb4-9dce-6c5a5788d000.png))
+![cidade](https://user-images.githubusercontent.com/102436341/230456488-41cd369d-22f2-4bb4-9dce-6c5a5788d000.png)
 
 ## Tecnologias Utilizadas 🛠️
 
